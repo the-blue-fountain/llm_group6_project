@@ -1,0 +1,18 @@
+{{problem}}
+
+IMPORTANT: Generate a BRUTE-FORCE solution for stress testing purposes. This code will be used to validate other solutions, so correctness is more important than efficiency.
+
+Requirements:
+1. Use the simplest, most straightforward brute-force algorithm
+2. Prioritize correctness over optimization
+3. The code MUST execute test cases IN PARALLEL using threading for faster stress testing
+4. Use threading.Thread or concurrent.futures.ThreadPoolExecutor in the main function
+5. Read all test inputs at once and process them concurrently
+6. Output results in the same order as inputs
+
+Structure your solution as follows:
+- Define a solve() function that processes a single test case
+- In main(), read all inputs and use threading to process them in parallel
+- Collect and output results in order
+
+Generate only the complete Python code without any explanation or markdown formatting.

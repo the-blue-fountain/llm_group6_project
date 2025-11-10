@@ -1,0 +1,14 @@
+{{problem}}
+
+Produce a list of diverse additional test-case inputs (ONLY inputs, no outputs) for stress-testing this competitive programming problem. Output EXACTLY one test case per line. Each test case should be formatted the same way as the program's stdin (including newlines where necessary). Do not include any explanation, numbering, or markdown.
+
+Guidelines:
+- Produce corner cases, small cases, large/random cases (within constraints), and tricky patterns that might break incorrect algorithms.
+- Aim for variety: include minimal values, maximal values, repeated values, sorted/anti-sorted sequences, random distributions, and pathological edge patterns.
+- Ensure each line is a complete stdin for one run of the program (e.g., if the problem requires an initial `n` line, include it and the following lines on the same output line separated by literal `\n`).
+- Do not include extra whitespace outside the intended input formatting.
+
+Example single-line test case for an array problem that expects `n` then the array:
+"5\n1 2 3 4 5\n"
+
+Generate exactly {{num}} test cases (replace `{{num}}` before calling).
